@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandV Scroll</title>
+
+
+    <style>
+        .spacer ul li {
+            height: 400px;
+            background: linear-gradient(to bottom, #ccc, #888);
+        }
+
+        .spacer ul li.hscrollme {
+            height: 600px;
+            width: 100%;
+            background: #c5cdec;
+            overflow-y: scroll;
+        }
+        .scrollcontainer {
+            display: flex;
+            gap: 100px;
+            width: 3500px;
+
+        }
+        .scrollcontainer div {
+            width: 950px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to HandV Scroll</h1>
+    <p>This is a simple HTML boilerplate.</p>
+
+    <div class="spacer">
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li class="hscrollme">
+                <div class="scrollcontainer">
+                <div>
+                    HSCROLLME!!!!
+                </div>
+                <div>
+                    HSCROLLME!!!!
+                </div>
+                <div>
+                    HSCROLLME!!!!
+                </div>
+                <div>
+                    HSCROLLME!!!!
+                </div>
+                <div>
+                    HSCROLLME!!!!
+                </div>
+            </div>
+            </li>
+            <li>Four</li>
+            <li>Five</li>
+            <li>Six</li>
+            <li>Seven</li>
+            <li>Eight</li>
+            <li>Nine</li>
+            <li>Ten</li>
+        </ul>
+    </div>
+</body>
+</html>
